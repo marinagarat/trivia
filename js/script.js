@@ -54,6 +54,7 @@ function ShowQuestion () {
     fetch("https://opentdb.com/api.php?amount=1&category=" + dataCat + "&difficulty=" + dataLev) 
         .then(response => response.json())
         .then(data => {
+            document.getElementById("select").classList.add("hidden");
             document.getElementById("score").classList.remove("hidden");
             if(data.results[0].type == "multiple") {
 
