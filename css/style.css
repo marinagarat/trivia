@@ -1,0 +1,123 @@
+* {
+    font-family: 'Bungee', cursive;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.btn {
+    position: relative;
+    padding: 0.1em 1em;
+    background: linear-gradient(135deg, rgb(250, 204, 208), rgb(208, 204, 251));
+    border: none;
+    border-radius: 10px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 2px 2px rgba(255,0,255,.2);
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    transition: all .2s linear;
+  }
+  
+.btn:hover {
+    text-shadow: 2px 3px 4px rgba(0,0,255,.2);
+    padding: 0.2em 1em;
+}
+  
+@keyframes ButtonBg {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+}
+
+.backgroundGradient {
+    background: linear-gradient(135deg, #9598f5, #382f5a);
+}
+
+.btnRes {
+    border:0;
+    width: 45%;
+    padding: 10%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 200;
+    box-shadow: #007FA6 -2px -2px 0px 2px, #097a88 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+}
+
+.btnRes:hover {
+        box-shadow: #097a88 -2px -2px 0px 2px, #007FA6 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        transform: scale(1.01);
+}
+
+.pa {
+    font-size: 2em;
+}
+
+.cajita {
+    background-color: #00000080;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.textoColor {
+    font-size: 4rem;
+    background: linear-gradient(135deg, #00b3ea, #4ebacd);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#confetti-holder{
+    position: fixed;
+    height: 100vh;
+    pointer-events: none;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    vertical-align:middle;
+  } 
+  
+  #e0DQ82qcIov1 {
+    height: 150vh;
+    min-width: 600px;
+    min-height: 600px;
+  }
+
+  @keyframes shake {
+    0% { transform: rotate(0); }
+    20% { transform: rotate(-2deg); }
+    40% { transform: rotate(2deg); }
+    60% { transform: rotate(-2deg); }
+    80% { transform: rotate(2deg); }
+    100% { transform: rotate(0); }
+  }
+
+  .shake {
+    animation: shake 0.20s ease-in-out infinite;
+  }
+
+.rojito {
+    background-color: #e21c1c80 !important;
+}
+
+.size {
+    font-size: 1.5rem;
+}
+
+.cajitaPaRespuesta {
+    height: 50%;
+}
