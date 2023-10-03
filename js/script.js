@@ -47,14 +47,6 @@ let responsesTOrF = [op0, op1];
 let counter = 0;
 let correctCounter = 0;
 
-/* Para hacer la funcion general
-TIC guardar en variables los value de ambos select 
-3. ponerle las variables al endpoint
-4.aplicar el resto de la funcion tal cual?
-5.Modificar el clear and show
-6. no hardcodear, que sea interactivo, el select desde js y que cree cuantas options haya en la api 
-*/
-
 function ShowQuestion () {
 
     document.getElementById("divBtn").classList.add("hidden");

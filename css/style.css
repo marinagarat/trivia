@@ -39,6 +39,7 @@
 }
 
 .backgroundGradient {
+    min-height: 100vh;
     background: linear-gradient(135deg, #9598f5, #382f5a);
 }
 
@@ -120,4 +121,19 @@
 
 .cajitaPaRespuesta {
     height: 50%;
+}
+
+@media (max-width:480px) {
+    h1 {
+        font-size: 2.9rem !important;
+    }
+    
+    .cajita {
+        width: 95%;
+        
+    }
+    .btnRes {
+        width: 100%; 
+    }
+
 }
